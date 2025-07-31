@@ -12,5 +12,6 @@
     } else {
         feedback.textContent = "That's incorrect. Try again!";
     }
+       document.getElementById('submit-answer').addEventListener('click', checkAnswer);
 
 </script>
